@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./script/script.js"></script>
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    <title>Collatz Conjecture</title>
+</head>
+<body>
+    <div class="container">
+        <span class="display-1">
+            Collatz Conjecture
+        </span>
+    </div>
+    <div class="container">
+        <div class="left-side">
+            <input type="number" placeholder="Enter your number" id="collatzNumber">
+            <button id="btnAction" onclick="generateCollatzNumber()" >Run the algorithm</button>
+            <canvas id="context">
+            </canvas>
+            <span id="steps" class="steps-text hidden">
+                <p id="steps-text">Using Collatz algorithm, you reach 1 from 70 in 14 steps.</p>
+            </span>
+        </div>
+        <div class="right-side">
+            <table id="numbers_table" class="numbers-table hidden">
+                <tr>
+                    <th>Step</th>
+                    <th>Number</th>
+                    <th>Number parity</th>
+                    <th>Algorithm applied</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body> 
+
+</html>
