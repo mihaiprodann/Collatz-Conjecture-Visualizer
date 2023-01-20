@@ -8,7 +8,7 @@ A simple website built with HTML, CSS, and JavaScript that allows users to explo
 * Learn about the Collatz Conjecture and its history.
 
 # Installation 🛠
-* Clone the repository to your local machine using the command <kbd> git clone https://github.com/mihaiprodann/collatz-conjecture.git</kbd>
+* Clone the repository to your local machine using the command <kbd> git clone https://github.com/mihaiprodann/Collatz-Conjecture-Visualizer</kbd>
 * Open the <kbd>index.html</kbd> file in a web browser.
 
 # Usage 📲
